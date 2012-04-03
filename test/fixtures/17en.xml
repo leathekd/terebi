@@ -1,0 +1,1 @@
+{:trace-redirects ["http://www.thetvdb.com/api/API-KEY-HERE/series/78874/all/en.xml"], :status 304, :headers {"server" "nginx", "date" "Tue, 03 Apr 2012 00:21:25 GMT", "last-modified" "Tue, 03 Apr 2012 00:11:25 GMT", "connection" "close", "expires" "Tue, 03 Apr 2012 00:36:25 GMT", "cache-control" "max-age=900"}, :body nil}
