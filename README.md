@@ -11,6 +11,7 @@ TheTVDB's API is documented here: http://www.thetvdb.com/wiki/index.php/Programm
 ## Usage
 
 Most calls require a config map with the following:
+
 ```clj
 {:api-key "your api key"
  :language "en" ;; optional
