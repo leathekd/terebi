@@ -1,12 +1,12 @@
 # terebi
 
-[[TheTVDB.com]] is a great community driven database of television shows and episodes.  Terebi is a Clojure client to TheTVDB's API.
+TheTVDB.com is a great community driven database of television shows and episodes.  Terebi is a Clojure client to TheTVDB's API.
 
-Before you can use either the API or Terebi, you must register at [[http://www.thetvdb.com]] and then get an API key at [[http://thetvdb.com/?tab=apiregister]].  
+Before you can use either the API or Terebi, you must register at http://www.thetvdb.com and then get an API key at http://thetvdb.com/?tab=apiregister.  
 
-Your API key will be at [[http://thetvdb.com/?tab=userinfo]] when you're logged in.  Your account ID will be on the same page and is used for several of the API calls.
+Your API key will be at http://thetvdb.com/?tab=userinfo when you're logged in.  Your account ID will be on the same page and is used for several of the API calls.
 
-TheTVDB's API is documented here: [[http://www.thetvdb.com/wiki/index.php/Programmers_API]]
+TheTVDB's API is documented here: http://www.thetvdb.com/wiki/index.php/Programmers_API
 
 ## Usage
 
