@@ -21,11 +21,11 @@ Most calls require a config map with the following:
 A brief example.  You'll need to add some series to your list of favorites before this does anything intersting.
 
 ```clj
-(let [cfg {:account-id "" ;; fill me in
-           :api-key ""} ;; me too
+(let [account-id "" ;; fill me in
+      cfg {:api-key ""} ;; me too
       cfg (assoc cfg :mirror-path (:mirror-path (first (mirrors cfg))))]
   (println "My favorite series:")
-  (doseq [favorite-id (favorite-series cfg)]
+  (doseq [favorite-id (favorite-series cfg account-id)]
     (println (:series-name (series cfg favorite-id)))))
 ```
 
